@@ -26,7 +26,7 @@
 
                 <div class="col">
                     <div class="text-end nav-logo">
-                        Logo
+                        <img src="/img/bilancia.png" alt="">
                     </div>
                 </div>                
             </div>

@@ -25,6 +25,10 @@ h1{
     justify-content: flex-end; 
 }
 
+.nav-logo img{
+    max-width: 100px;
+}
+
 main{
     min-height: 400px;
 }
