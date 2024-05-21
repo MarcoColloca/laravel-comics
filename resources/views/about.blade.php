@@ -15,41 +15,20 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <img src="/img/master.jpg" class="card-img-top p-5" alt="...">
+                @foreach ($cards as $card)
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="{{$card['img']}}" class="card-img-top p-5" alt="...">
 
-                        <div class="card-body px-5">
-                            <h5 class="card-title text-center pb-3">Master</h5>
+                            <div class="card-body px-5">
+                                <h5 class="card-title text-center pb-3">{{$card['name']}}</h5>
 
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">{{$card['description']}}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-4">
-                    <div class="card">
-                        <img src="/img/critical.jpg" class="card-img-top p-5" alt="...">
-    
-                        <div class="card-body px-5">
-                            <h5 class="card-title text-center pb-3">Critical 1!</h5>
-
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="card">
-                        <img src="/img/d20.jpg" class="card-img-top p-5" alt="...">
-
-                        <div class="card-body px-5">
-                            <h5 class="card-title text-center pb-3">d20 Dice</h5>
-
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach                
             </div>
         </div>
     </section>    

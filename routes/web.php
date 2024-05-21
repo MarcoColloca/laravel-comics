@@ -27,5 +27,27 @@ Route::get('/comics', function () {
 
 
 Route::get('/about', function () {
-    return view('about');
+
+    $data = [
+        'cardNames' => ['Master', 'Critical 1', 'd20 Dice'],
+        'cards' => [
+            [
+                'name' => 'Master',
+                'img' => '/img/master.jpg',
+                'description' => 'Some quick example text to build on the card title and make up the bulk of the card content.'
+            ],
+            [
+                'name' => 'Critical 1',
+                'img' => '/img/critical.jpg',
+                'description' => 'Some quick example text to build on the card title and make up the bulk of the card content.'
+            ],
+            [
+                'name' => 'd20 Dice',
+                'img' => '/img/d20.jpg',
+                'description' => 'Some quick example text to build on the card title and make up the bulk of the card content.'
+            ]
+        ]
+    ];
+
+    return view('about', $data);
 })->name('about');
