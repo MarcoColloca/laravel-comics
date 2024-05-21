@@ -3,9 +3,9 @@
 @section('title', 'Comics')
 
 @section('main-content')
-    <section>
+    <section class="mt-5">
         <div class="container">
-            <h1 class="title text-danger">Comics!</h1>
+            <h1 class="title text-center text-danger">Comics!</h1>
         </div>
     </section>    
 @endsection

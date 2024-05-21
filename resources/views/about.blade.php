@@ -8,7 +8,11 @@
             <h1 class="title text-center text-primary">Chi siamo noi?</h1>
         </div>
     </section>
-    <section class="bg-subtle py-5">
+    <section class="bg-subtle pb-5 pt-2">
+        <div class="py-1 mb-3 text-primary container">
+            <h1>I Nostri Utenti:</h1>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-4">

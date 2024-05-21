@@ -5,7 +5,7 @@
 @section('main-content')
     <section class="bg-dark my-5 py-2">
         <div class="container">
-            <h1 class="title text-center text-primary">Welcome!</h1>
+            <h1 class="title text-center text-success">Welcome!</h1>
         </div>
     </section>
     <section class="bg-subtle py-5">
