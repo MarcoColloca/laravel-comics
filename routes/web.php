@@ -29,7 +29,7 @@ Route::get('/comics', function () {
 Route::get('/about', function () {
 
     $data = [
-        'cardNames' => ['Master', 'Critical 1', 'd20 Dice'],
+        
         'cards' => [
             [
                 'name' => 'Master',
