@@ -1,5 +1,30 @@
-.nav-bar{
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+
+h1{
+    margin: 0;
+}
+
+
+
+
+.nav-bar,
+.nav-logo{
     list-style: none;
     display: flex;   
     justify-content: center; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav-logo{
+    justify-content: flex-end; 
+}
+
+main{
+    min-height: 400px;
 }

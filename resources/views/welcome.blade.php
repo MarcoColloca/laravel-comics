@@ -3,9 +3,14 @@
 @section('title', 'Homepage')
 
 @section('main-content')
-    <section>
+    <section class="bg-dark my-5 py-2">
         <div class="container">
-            <h1 class="title">Welcome!</h1>
+            <h1 class="title text-center text-primary">Welcome!</h1>
+        </div>
+    </section>
+    <section class="bg-subtle py-5">
+        <div class="container">
+            <p class="title text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam expedita quo hic at ratione fuga asperiores nemo quae aspernatur rerum, aut repellat. Molestiae dolores ad est, maiores at provident velit dolor, illum amet harum quo quibusdam doloribus quisquam ut quasi? Non repudiandae cum doloribus aperiam minus, porro dolores suscipit saepe odit voluptas ad culpa alias dolorem repellat accusantium excepturi, beatae ipsum fuga nobis quidem quos repellendus exercitationem iure? Id asperiores nam commodi facilis nihil magni fugiat atque esse delectus officia, minus sapiente accusantium, quos quibusdam optio, ut incidunt eveniet expedita totam aspernatur nobis ratione dolor. Sequi molestias tempore doloribus?</p>
         </div>
     </section>    
 @endsection
