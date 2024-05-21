@@ -19,7 +19,7 @@
                             <a class="text-white" href="{{route('comics')}}">Comics</a>
                         </li>
                         <li class="mx-3">
-                            <a class="text-white" href="">Pagina 3</a>
+                            <a class="text-white" href="{{route('about')}}">About Us</a>
                         </li>
                     </ul>
                 </div>

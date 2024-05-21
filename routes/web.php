@@ -23,3 +23,9 @@ Route::get('/', function () {
 Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
+
+
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
