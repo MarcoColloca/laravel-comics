@@ -18,7 +18,7 @@
                 @foreach ($cards as $card)
                     <div class="col-4">
                         <div class="card">
-                            <img src="{{$card['img']}}" class="card-img-top p-5" alt="...">
+                            <img src="{{$card['img']}}" class="card-img-top p-5 pb-2" alt="...">
 
                             <div class="card-body px-5">
                                 <h5 class="card-title text-center pb-3">{{$card['name']}}</h5>
