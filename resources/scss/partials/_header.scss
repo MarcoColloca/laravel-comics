@@ -1,5 +1,17 @@
+.main-header__nav{
+    background-color: white;
+    color: #000000;
+}
+
+.main-header__others{
+    background-color: #0C7CEC;
+    color: white;
+}
+
+
 .nav-bar,
-.nav-logo{
+.nav-logo,
+.nav-search{
     list-style: none;
     display: flex;   
     justify-content: center; 
@@ -9,14 +21,38 @@
     height: 100%;
 }
 
+.nav-bar{
+
+    a{
+        color: #000000;
+        &:hover{
+            color: #0C7CEC;
+            font-weight: 700;
+        }
+    }
+}
+
+
 .nav-logo{
-    justify-content: flex-end; 
+    justify-content: flex-start; 
+
+    img{
+        max-width: 100px;
+    }
 }
 
-.nav-logo img{
-    max-width: 100px;
-}
 
-main{
-    min-height: 400px;
+.nav-search{
+    justify-content: flex-end;
+    input{
+        text-align: end; 
+        padding-right: 20px;
+        border: none;
+        border-bottom: 1px solid black;
+        &:focus{
+            border: none;
+            border-bottom: 1px solid #0C7CEC;
+            outline: none;
+        }
+    }
 }
