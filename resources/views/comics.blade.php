@@ -3,12 +3,17 @@
 @section('title', 'Comics')
 
 @section('main-content')
-    <section class="my-5 p-3">
-        <div class="container">
-            <h1 class="title text-center text-danger pb-5">Comics!</h1>
-        </div>
+    <div class="hero-img-container">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+    </div>
 
-        <div class="container">
+    <section class="mt-4 py-4 comics-container">
+
+        <div class="container">            
+            <div class="hero-title-container">
+                <h1>CURRENT SERIES</h1>
+            </div>
+
             <div class="row g-5">
                 @foreach ($comics as $comic)
                     <div class="col-4">
