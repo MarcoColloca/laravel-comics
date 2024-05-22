@@ -24,7 +24,7 @@ Route::get('/comics', function () {
 
     $comics = config('comics');
 
-    @dump($comics);
+    //@dump($comics);
 
     return view('comics', compact('comics'));
 })->name('comics');
