@@ -29,9 +29,27 @@
                             </div>
                         </div>
                     </div>
-
                 @endforeach                
             </div>
         </div>
-    </section>    
+    </section> 
+    
+    <section class="main-nav">
+        <div class="h-100 container">
+            <div class="h-100 row justify-content-between align-items-center">
+                <div class="col-2">
+                    <h5> <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt=""> DIGITAL COMICS</h5>
+                </div>
+                <div class="col-2">
+                    <h5> <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt=""> DC MERCHS</h5>
+                </div>
+                <div class="col-2">
+                    <h5> <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt=""> SUBSCRIPTION</h5>
+                </div>
+                <div class="col-2">
+                    <h5> <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt=""> DC POWER VISA</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
