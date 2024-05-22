@@ -1,15 +1,22 @@
-.my-card{
-    
-    img{
-        max-height: 430px;
-        // aspect-ratio: 1/1;
-    }
+.nav-bar,
+.nav-logo{
+    list-style: none;
+    display: flex;   
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
-    .card-body{
-        min-height: 105px;
-    }
+.nav-logo{
+    justify-content: flex-end; 
+}
 
-    .card-footer{
-        min-height: 65px;
-    }
+.nav-logo img{
+    max-width: 100px;
+}
+
+main{
+    min-height: 400px;
 }
