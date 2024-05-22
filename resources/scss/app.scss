@@ -1,5 +1,4 @@
 @use "~bootstrap/scss/bootstrap";
+@use './partials/common';
+@use './partials/header';
 
-body{
-    background-color: rgb(230, 230, 230);
-}
